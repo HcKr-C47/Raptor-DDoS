@@ -11,11 +11,6 @@ DDoS Panel Script with Multiple Bypasses (Cloudflare UAM,CAPTCHA,BFM,NOSEC / DDo
 
 ![RAPTOR](https://github.com/HcKr-C47/Raptor-DDoS/assets/51154046/239f609b-d917-42e0-b8a3-64da6a255574)
 
-![Screenshot (97)](https://github.com/HcKr-C47/Raptor-DDoS/assets/51154046/e81f9aa2-3ea5-44b4-9507-ef6d33f547c4)
-![Screenshot (98)](https://github.com/HcKr-C47/Raptor-DDoS/assets/51154046/7834aadd-a2d4-42f3-a64d-a7dc75676ced)
-
-
-
 
 -------------------------------------------------------------------------------
 
@@ -35,3 +30,7 @@ OR
 
 Run Raptor
  - python3 Raptor.py
+
+------------------------------------------------------------------------------
+![Screenshot (97)](https://github.com/HcKr-C47/Raptor-DDoS/assets/51154046/e81f9aa2-3ea5-44b4-9507-ef6d33f547c4)
+![Screenshot (98)](https://github.com/HcKr-C47/Raptor-DDoS/assets/51154046/7834aadd-a2d4-42f3-a64d-a7dc75676ced)
