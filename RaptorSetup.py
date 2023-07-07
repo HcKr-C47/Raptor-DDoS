@@ -7,7 +7,7 @@ print("""
 \x1b[38;2;0;255;58m>(setup)
 """) 
 
-print("""[0] pip\n[1] pip3\nWhich Python do you use?""")
+print("""[0] pip\n[1] pip3\nWhich Pip do you use?""")
 
 c = input(">>>: ")
 if c == "0":
