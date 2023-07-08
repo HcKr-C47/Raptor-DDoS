@@ -71,7 +71,9 @@ We thank you for your vigilance in helping us maintain a secure environment for 
 Together, we can combat malicious behaviour and ensure the continued success of our program.
 
 Thank you for your attention and commitment to cybersecurity. 
+
 ⚠️WE DO NOT COLLECT ANY PERSONAL DATA OR PRIVATE INFORMATION⚠️
+
 Sincerely,
 
 Raptor DDoS Team
