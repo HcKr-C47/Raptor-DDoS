@@ -41,9 +41,6 @@ Please be advised that any unauthorized activities that exploit the aforemention
 ## Reporting Malicious activities
 
 
-Dear Community Members,
-
-
 If you come across any of the following activities, please report them immediately:
 
 1 Unauthorized access or attempts to access sensitive information.
