@@ -18,7 +18,7 @@ Important Notice: Open Source Code DDoS Vulnerability
 
 Dear community members,
 
-We would like to draw your attention to a critical matter regarding an open-source code vulnerability that could potentially lead to Distributed Denial of Service (DDoS) attacks. It has come to our attention that certain individuals have been exploiting this vulnerability for malicious purposes. We want to emphasize that we do not condone or authorize any form of attack, and the consequences of such actions lie solely with the individuals responsible.
+We would like to draw your attention to a critical matter regarding an open-source code vulnerability that could potentially lead to Distributed Denial of Service (DDoS) attacks. The consequences of such actions lie solely with the individuals responsible.
 
 Security Advice: Protecting Against Vulnerabilities
 
