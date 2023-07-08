@@ -44,10 +44,14 @@ Please be advised that any unauthorized activities that exploit the aforemention
 If you come across any of the following activities, please report them immediately:
 
 1 Unauthorized access or attempts to access sensitive information.
+
 2 Distribution of harmful or malicious code.
+
 3 The exploitation of vulnerabilities within the program.
-3 Conducting Distributed Denial of Service (DDoS) attacks.
-4 Any other actions that compromise the security or functionality of the program.
+
+4 Conducting Distributed Denial of Service (DDoS) attacks.
+
+5 Any other actions that compromise the security or functionality of the program.
 Reporting Procedure:
 
 To ensure a swift response and appropriate action, please follow these reporting guidelines:
