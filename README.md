@@ -9,6 +9,8 @@
 
 DDoS Panel Script with Multiple Bypasses (Cloudflare UAM,CAPTCHA,BFM,NOSEC / DDoS Guard / Google Shield / V Shield / Amazon / and so on). Do not attack any websites that do not belong to you. All responsibilities and disadvantages of using this programme are solely the responsibility of the user.
 
+https://raptordos.odoo.com/
+
 ![RAPTOR](https://github.com/HcKr-C47/Raptor-DDoS/assets/51154046/239f609b-d917-42e0-b8a3-64da6a255574)
 
 
