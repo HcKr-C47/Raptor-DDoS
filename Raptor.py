@@ -104,22 +104,22 @@ def spoof(target):
 
 ##############################################################################################
 def get_info_l7():
-    stdout.write("\x1b[38;2;255;20;147m • "+Fore.WHITE+"URL      "+Fore.LIGHTCYAN_EX+": "+Fore.LIGHTGREEN_EX)
+    stdout.write("\x1b[38;2;255;20;147m - "+Fore.WHITE+"URL      "+Fore.LIGHTCYAN_EX+": "+Fore.LIGHTGREEN_EX)
     target = input()
-    stdout.write("\x1b[38;2;255;20;147m • "+Fore.WHITE+"THREAD   "+Fore.LIGHTCYAN_EX+": "+Fore.LIGHTGREEN_EX)
+    stdout.write("\x1b[38;2;255;20;147m - "+Fore.WHITE+"THREAD   "+Fore.LIGHTCYAN_EX+": "+Fore.LIGHTGREEN_EX)
     thread = input()
-    stdout.write("\x1b[38;2;255;20;147m • "+Fore.WHITE+"TIME(s)  "+Fore.LIGHTCYAN_EX+": "+Fore.LIGHTGREEN_EX)
+    stdout.write("\x1b[38;2;255;20;147m - "+Fore.WHITE+"TIME(s)  "+Fore.LIGHTCYAN_EX+": "+Fore.LIGHTGREEN_EX)
     t = input()
     return target, thread, t
 
 def get_info_l4():
-    stdout.write("\x1b[38;2;255;20;147m • "+Fore.WHITE+"IP       "+Fore.LIGHTCYAN_EX+": "+Fore.LIGHTGREEN_EX)
+    stdout.write("\x1b[38;2;255;20;147m - "+Fore.WHITE+"IP       "+Fore.LIGHTCYAN_EX+": "+Fore.LIGHTGREEN_EX)
     target = input()
-    stdout.write("\x1b[38;2;255;20;147m • "+Fore.WHITE+"PORT     "+Fore.LIGHTCYAN_EX+": "+Fore.LIGHTGREEN_EX)
+    stdout.write("\x1b[38;2;255;20;147m - "+Fore.WHITE+"PORT     "+Fore.LIGHTCYAN_EX+": "+Fore.LIGHTGREEN_EX)
     port = input()
-    stdout.write("\x1b[38;2;255;20;147m • "+Fore.WHITE+"THREAD   "+Fore.LIGHTCYAN_EX+": "+Fore.LIGHTGREEN_EX)
+    stdout.write("\x1b[38;2;255;20;147m - "+Fore.WHITE+"THREAD   "+Fore.LIGHTCYAN_EX+": "+Fore.LIGHTGREEN_EX)
     thread = input()
-    stdout.write("\x1b[38;2;255;20;147m • "+Fore.WHITE+"TIME(s)  "+Fore.LIGHTCYAN_EX+": "+Fore.LIGHTGREEN_EX)
+    stdout.write("\x1b[38;2;255;20;147m - "+Fore.WHITE+"TIME(s)  "+Fore.LIGHTCYAN_EX+": "+Fore.LIGHTGREEN_EX)
     t = input()
     return target, port, thread, t
 ##############################################################################################
@@ -801,15 +801,15 @@ def help():
     stdout.write("             "+Fore.LIGHTGREEN_EX            +"                 ▒█░▒█ ▒█▄▄▄ ▒█▄▄█ ▒█░░░            \n")
     stdout.write("             "+Fore.LIGHTGREEN_EX            +"                                                    \n")
     stdout.write("             "+Fore.LIGHTGREEN_EX            +"╔═════════-═════════════════════════════════-═════════╗\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;0;255;0m- "+Fore.LIGHTWHITE_EX+"layer7   "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTGREEN_EX+" Show Layer7 Methods                    "+Fore.LIGHTGREEN_EX+"║\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;0;255;0m- "+Fore.LIGHTWHITE_EX+"layer4   "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTGREEN_EX+" Show Layer4 Methods                    "+Fore.LIGHTGREEN_EX+"║\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;0;255;0m- "+Fore.LIGHTWHITE_EX+"tools    "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTGREEN_EX+" Show tools                             "+Fore.LIGHTGREEN_EX+"║\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;0;255;0m- "+Fore.LIGHTWHITE_EX+"credit   "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTGREEN_EX+" Show credit                            "+Fore.LIGHTGREEN_EX+"║\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;0;255;0m- "+Fore.LIGHTWHITE_EX+"exit     "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTGREEN_EX+" Exit RAPTOR DDoS                       "+Fore.LIGHTGREEN_EX+"║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX            +"| \x1b[38;2;0;255;0m- "+Fore.LIGHTWHITE_EX+"layer7   "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTGREEN_EX+" Show Layer7 Methods                    "+Fore.LIGHTGREEN_EX+"|\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX            +"| \x1b[38;2;0;255;0m- "+Fore.LIGHTWHITE_EX+"layer4   "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTGREEN_EX+" Show Layer4 Methods                    "+Fore.LIGHTGREEN_EX+"|\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX            +"| \x1b[38;2;0;255;0m- "+Fore.LIGHTWHITE_EX+"tools    "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTGREEN_EX+" Show tools                             "+Fore.LIGHTGREEN_EX+"|\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX            +"| \x1b[38;2;0;255;0m- "+Fore.LIGHTWHITE_EX+"credit   "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTGREEN_EX+" Show credit                            "+Fore.LIGHTGREEN_EX+"|\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX            +"| \x1b[38;2;0;255;0m- "+Fore.LIGHTWHITE_EX+"exit     "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTGREEN_EX+" Exit RAPTOR DDoS                       "+Fore.LIGHTGREEN_EX+"|\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX            +"╠═════════════════════════════════════════════════════╣\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;0;255;0m- "+Fore.LIGHTWHITE_EX+"THANK    "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTGREEN_EX+" Thanks for using RAPTOR.               "+Fore.LIGHTGREEN_EX+"║\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;0;255;0m- "+Fore.LIGHTWHITE_EX+"YOU      "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTGREEN_EX+" Stay silent stay alert                 "+Fore.LIGHTGREEN_EX+"║\n")
-    stdout.write("             "+Fore.LIGHTGREEN_EX            +"║ \x1b[38;2;0;255;0m- "+Fore.LIGHTWHITE_EX+"github   "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTGREEN_EX+" https://github.com/HcKr-C47/Raptor-DDoS"+Fore.LIGHTGREEN_EX+"║\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX            +"| \x1b[38;2;0;255;0m- "+Fore.LIGHTWHITE_EX+"THANK    "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTGREEN_EX+" Thanks for using RAPTOR.               "+Fore.LIGHTGREEN_EX+"|\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX            +"| \x1b[38;2;0;255;0m- "+Fore.LIGHTWHITE_EX+"YOU      "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTGREEN_EX+" Stay silent stay alert                 "+Fore.LIGHTGREEN_EX+"|\n")
+    stdout.write("             "+Fore.LIGHTGREEN_EX            +"| \x1b[38;2;0;255;0m- "+Fore.LIGHTWHITE_EX+"github   "+Fore.LIGHTGREEN_EX+"|"+Fore.LIGHTGREEN_EX+" https://github.com/HcKr-C47/Raptor-DDoS"+Fore.LIGHTGREEN_EX+"|\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX            +"╚═════════════════════════════════════════════════════╝\n")
     stdout.write("\n")
 ##############################################################################################
@@ -829,26 +829,26 @@ def layer7():
     stdout.write("            "+Fore.LIGHTRED_EX            +"          ▒█▄▄█ ▒█░▒█ ░░▒█░░ ▒█▄▄▄ ▒█░▒█ ░▐▌░    \n")
     stdout.write("            "+Fore.LIGHTRED_EX            +"                                            \n")
     stdout.write("            "+Fore.LIGHTRED_EX            +"╔══════════-═════════════════════════════════-═════════╗\n")
-    stdout.write("            "+Fore.LIGHTRED_EX            +"║ \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"cfb    "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Bypass CF Attack                         "+Fore.LIGHTRED_EX+"║\n")
-    stdout.write("            "+Fore.LIGHTRED_EX            +"║ \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"pxcfb  "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Bypass CF Attack With Proxy              "+Fore.LIGHTRED_EX+"║\n")                  
-    stdout.write("            "+Fore.LIGHTRED_EX            +"║ \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"cfreq  "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Bypass CF UAM, CAPTCHA, BFM (request)    "+Fore.LIGHTRED_EX+"║\n")
-    stdout.write("            "+Fore.LIGHTRED_EX            +"║ \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"cfsoc  "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Bypass CF UAM, CAPTCHA, BFM (socket)     "+Fore.LIGHTRED_EX+"║\n")
-    stdout.write("            "+Fore.LIGHTRED_EX            +"║ \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"pxsky  "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Bypass Google Project Shield, Vshield,   "+Fore.LIGHTRED_EX+"║\n")
-    stdout.write("            "+Fore.LIGHTRED_EX            +"║ \x1b[38;2;255;20;147m  "+Fore.LIGHTWHITE_EX+"       "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" DDoS Guard Free, CF NoSec With Proxy     "+Fore.LIGHTRED_EX+"║\n")
-    stdout.write("            "+Fore.LIGHTRED_EX            +"║ \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"sky    "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Sky method without proxy                 "+Fore.LIGHTRED_EX+"║\n")
-    stdout.write("            "+Fore.LIGHTRED_EX            +"║ \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"http2  "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" HTTP 2.0 Request Attack                  "+Fore.LIGHTRED_EX+"║\n")
-    stdout.write("            "+Fore.LIGHTRED_EX            +"║ \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"pxhttp2"+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" HTTP 2.0 Request Attack With Proxy       "+Fore.LIGHTRED_EX+"║\n")
-    stdout.write("            "+Fore.LIGHTRED_EX            +"║ \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"get    "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Get Request Attack                       "+Fore.LIGHTRED_EX+"║\n")
-    stdout.write("            "+Fore.LIGHTRED_EX            +"║ \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"post   "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Post Request Attack                      "+Fore.LIGHTRED_EX+"║\n")
-    stdout.write("            "+Fore.LIGHTRED_EX            +"║ \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"head   "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Head Request Attack                      "+Fore.LIGHTRED_EX+"║\n")
-    stdout.write("            "+Fore.LIGHTRED_EX            +"║ \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"pps    "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Only GET / HTTP/1.1                      "+Fore.LIGHTRED_EX+"║\n")
+    stdout.write("            "+Fore.LIGHTRED_EX            +"| \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"cfb    "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Bypass CF Attack                         "+Fore.LIGHTRED_EX+"|\n")
+    stdout.write("            "+Fore.LIGHTRED_EX            +"| \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"pxcfb  "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Bypass CF Attack With Proxy              "+Fore.LIGHTRED_EX+"|\n")                  
+    stdout.write("            "+Fore.LIGHTRED_EX            +"| \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"cfreq  "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Bypass CF UAM, CAPTCHA, BFM (request)    "+Fore.LIGHTRED_EX+"|\n")
+    stdout.write("            "+Fore.LIGHTRED_EX            +"| \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"cfsoc  "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Bypass CF UAM, CAPTCHA, BFM (socket)     "+Fore.LIGHTRED_EX+"|\n")
+    stdout.write("            "+Fore.LIGHTRED_EX            +"| \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"pxsky  "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Bypass Google Project Shield, Vshield,   "+Fore.LIGHTRED_EX+"|\n")
+    stdout.write("            "+Fore.LIGHTRED_EX            +"| \x1b[38;2;255;20;147m  "+Fore.LIGHTWHITE_EX+"       "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" DDoS Guard Free, CF NoSec With Proxy     "+Fore.LIGHTRED_EX+"|\n")
+    stdout.write("            "+Fore.LIGHTRED_EX            +"| \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"sky    "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Sky method without proxy                 "+Fore.LIGHTRED_EX+"|\n")
+    stdout.write("            "+Fore.LIGHTRED_EX            +"| \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"http2  "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" HTTP 2.0 Request Attack                  "+Fore.LIGHTRED_EX+"|\n")
+    stdout.write("            "+Fore.LIGHTRED_EX            +"| \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"pxhttp2"+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" HTTP 2.0 Request Attack With Proxy       "+Fore.LIGHTRED_EX+"|\n")
+    stdout.write("            "+Fore.LIGHTRED_EX            +"| \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"get    "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Get Request Attack                       "+Fore.LIGHTRED_EX+"|\n")
+    stdout.write("            "+Fore.LIGHTRED_EX            +"| \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"post   "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Post Request Attack                      "+Fore.LIGHTRED_EX+"|\n")
+    stdout.write("            "+Fore.LIGHTRED_EX            +"| \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"head   "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Head Request Attack                      "+Fore.LIGHTRED_EX+"|\n")
+    stdout.write("            "+Fore.LIGHTRED_EX            +"| \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"pps    "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Only GET / HTTP/1.1                      "+Fore.LIGHTRED_EX+"|\n")
     
-    stdout.write("            "+Fore.LIGHTRED_EX            +"║ \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"spoof  "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" HTTP Spoof Socket Attack                 "+Fore.LIGHTRED_EX+"║\n")
-    stdout.write("            "+Fore.LIGHTRED_EX            +"║ \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"pxspoof"+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" HTTP Spoof Socket Attack With Proxy      "+Fore.LIGHTRED_EX+"║\n")
+    stdout.write("            "+Fore.LIGHTRED_EX            +"| \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"spoof  "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" HTTP Spoof Socket Attack                 "+Fore.LIGHTRED_EX+"|\n")
+    stdout.write("            "+Fore.LIGHTRED_EX            +"| \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"pxspoof"+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" HTTP Spoof Socket Attack With Proxy      "+Fore.LIGHTRED_EX+"|\n")
     
-    stdout.write("            "+Fore.LIGHTRED_EX            +"║ \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"soc    "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Socket Attack                            "+Fore.LIGHTRED_EX+"║\n")
-    stdout.write("            "+Fore.LIGHTRED_EX            +"║ \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"pxraw  "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Proxy Request Attack                     "+Fore.LIGHTRED_EX+"║\n")
-    stdout.write("            "+Fore.LIGHTRED_EX            +"║ \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"pxsoc  "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Proxy Socket Attack                      "+Fore.LIGHTRED_EX+"║\n")
+    stdout.write("            "+Fore.LIGHTRED_EX            +"| \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"soc    "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Socket Attack                            "+Fore.LIGHTRED_EX+"|\n")
+    stdout.write("            "+Fore.LIGHTRED_EX            +"| \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"pxraw  "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Proxy Request Attack                     "+Fore.LIGHTRED_EX+"|\n")
+    stdout.write("            "+Fore.LIGHTRED_EX            +"| \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"pxsoc  "+Fore.LIGHTRED_EX+" |"+Fore.LIGHTRED_EX+" Proxy Socket Attack                      "+Fore.LIGHTRED_EX+"|\n")
     stdout.write("            "+Fore.LIGHTRED_EX            +"╚══════════════════════════════════════════════════════╝\n") 
     stdout.write("\n")
 ##############################################################################################
@@ -860,8 +860,8 @@ def layer4():
     stdout.write("             "+Fore.LIGHTMAGENTA_EX            +"       ▒█▄▄█ ▒█░▒█ ░░▒█░░ ▒█▄▄▄ ▒█░▒█ ░░░█░ \n")
     stdout.write("             "+Fore.LIGHTMAGENTA_EX            +"                                             \n")
     stdout.write("             "+Fore.LIGHTMAGENTA_EX            +"╔═════════-═════════════════════════════════-═════════╗\n")
-    stdout.write("             "+Fore.LIGHTMAGENTA_EX            +"║ \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"udp   "+Fore.LIGHTMAGENTA_EX+"|"+Fore.LIGHTMAGENTA_EX+" UDP Attack                                "+Fore.LIGHTMAGENTA_EX+"║\n")
-    stdout.write("             "+Fore.LIGHTMAGENTA_EX            +"║ \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"tcp   "+Fore.LIGHTMAGENTA_EX+"|"+Fore.LIGHTMAGENTA_EX+" TCP Attack                                "+Fore.LIGHTMAGENTA_EX+"║\n")
+    stdout.write("             "+Fore.LIGHTMAGENTA_EX            +"| \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"udp   "+Fore.LIGHTMAGENTA_EX+"|"+Fore.LIGHTMAGENTA_EX+" UDP Attack                                "+Fore.LIGHTMAGENTA_EX+"|\n")
+    stdout.write("             "+Fore.LIGHTMAGENTA_EX            +"| \x1b[38;2;255;20;147m- "+Fore.LIGHTWHITE_EX+"tcp   "+Fore.LIGHTMAGENTA_EX+"|"+Fore.LIGHTMAGENTA_EX+" TCP Attack                                "+Fore.LIGHTMAGENTA_EX+"|\n")
     stdout.write("             "+Fore.LIGHTMAGENTA_EX            +"╚═════════════════════════════════════════════════════╝\n") 
     stdout.write("\n")
 ##############################################################################################
@@ -873,9 +873,9 @@ def tools():
     stdout.write("             "+Fore.LIGHTBLUE_EX            +"                ─░█── ▀▀▀▀ ▀▀▀▀ ▀▀▀ ▀▀▀                  \n")
     stdout.write("             "+Fore.LIGHTBLUE_EX            +"                                                         \n")
     stdout.write("             "+Fore.LIGHTBLUE_EX            +"╔═════════-═════════════════════════════════-═════════╗\n")
-    stdout.write("             "+Fore.LIGHTBLUE_EX            +"║ \x1b[38;2;0;20;147m- "+Fore.LIGHTWHITE_EX+"geoip "+Fore.LIGHTBLUE_EX+"|"+Fore.LIGHTBLUE_EX+" Geo IP Address Lookup"+Fore.LIGHTBLUE_EX+"                     ║\n")
-    stdout.write("             "+Fore.LIGHTBLUE_EX            +"║ \x1b[38;2;0;20;147m- "+Fore.LIGHTWHITE_EX+"dns   "+Fore.LIGHTBLUE_EX+"|"+Fore.LIGHTBLUE_EX+" Classic DNS Lookup   "+Fore.LIGHTBLUE_EX+"                     ║\n")
-    stdout.write("             "+Fore.LIGHTBLUE_EX            +"║ \x1b[38;2;0;20;147m- "+Fore.LIGHTWHITE_EX+"subnet"+Fore.LIGHTBLUE_EX+"|"+Fore.LIGHTBLUE_EX+" Subnet IP Address Lookup   "+Fore.LIGHTBLUE_EX+"               ║\n")
+    stdout.write("             "+Fore.LIGHTBLUE_EX            +"| \x1b[38;2;0;20;147m- "+Fore.LIGHTWHITE_EX+"geoip "+Fore.LIGHTBLUE_EX+"|"+Fore.LIGHTBLUE_EX+" Geo IP Address Lookup"+Fore.LIGHTBLUE_EX+"                     |\n")
+    stdout.write("             "+Fore.LIGHTBLUE_EX            +"| \x1b[38;2;0;20;147m- "+Fore.LIGHTWHITE_EX+"dns   "+Fore.LIGHTBLUE_EX+"|"+Fore.LIGHTBLUE_EX+" Classic DNS Lookup   "+Fore.LIGHTBLUE_EX+"                     |\n")
+    stdout.write("             "+Fore.LIGHTBLUE_EX            +"| \x1b[38;2;0;20;147m- "+Fore.LIGHTWHITE_EX+"subnet"+Fore.LIGHTBLUE_EX+"|"+Fore.LIGHTBLUE_EX+" Subnet IP Address Lookup   "+Fore.LIGHTBLUE_EX+"               |\n")
     stdout.write("             "+Fore.LIGHTBLUE_EX            +"╚═════════════════════════════════════════════════════╝\n") 
     stdout.write("\n")
 ##############################################################################################
@@ -887,14 +887,14 @@ def title():
     stdout.write("             "+Fore.LIGHTCYAN_EX+"    ██║░░██║██║░░██║██║░░░░░░░░██║░░░╚█████╔╝██║░░██║ \n")
     stdout.write("             "+Fore.LIGHTCYAN_EX+"    ╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░░░░░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝ \n")
     stdout.write("             "+Fore.LIGHTCYAN_EX+"╔═════════-═════════════════════════════════-═════════╗\n")
-    stdout.write("             "+Fore.LIGHTCYAN_EX+"║ "+Fore.LIGHTCYAN_EX   +"        Welcome To The Main Screen Of Raptor  "+Fore.LIGHTCYAN_EX  +"     ║\n")
-    stdout.write("             "+Fore.LIGHTCYAN_EX+"║ "+Fore.LIGHTCYAN_EX   +"          Type [help] to see the Commands    "+Fore.LIGHTCYAN_EX +"       ║\n")
-    stdout.write("             "+Fore.LIGHTCYAN_EX+"║ "+Fore.LIGHTCYAN_EX   +"         Remember Stay Silent, Stay Safe   "+Fore.LIGHTCYAN_EX +"         ║\n")
+    stdout.write("             "+Fore.LIGHTCYAN_EX+"| "+Fore.LIGHTCYAN_EX   +"        Welcome To The Main Screen Of Raptor  "+Fore.LIGHTCYAN_EX  +"      |\n")
+    stdout.write("             "+Fore.LIGHTCYAN_EX+"| "+Fore.LIGHTCYAN_EX   +"          Type [help] to see the Commands    "+Fore.LIGHTCYAN_EX +"       |\n")
+    stdout.write("             "+Fore.LIGHTCYAN_EX+"| "+Fore.LIGHTCYAN_EX   +"         Remember Stay Silent, Stay Safe   "+Fore.LIGHTCYAN_EX +"         |\n")
     stdout.write("             "+Fore.LIGHTCYAN_EX+"╚═════════════════════════════════════════════════════╝\n")
     stdout.write("\n")
 ##############################################################################################
 def command():
-    stdout.write(Fore.LIGHTRED_EX+"╔═══"+Fore.LIGHTCYAN_EX+"[""root"+Fore.LIGHTGREEN_EX+"@"+Fore.LIGHTBLACK_EX+"RAPTOR"+Fore.CYAN+"]"+Fore.LIGHTCYAN_EX+"\n╚══\x1b[38;2;0;255;189m> "+Fore.WHITE)
+    stdout.write(Fore.LIGHTCYAN_EX+"╔═══"+Fore.LIGHTCYAN_EX+"[""root"+Fore.RED+"@"+Fore.GREEN+"RAPTOR"+Fore.CYAN+"]"+Fore.LIGHTCYAN_EX+"\n╚══\x1b[38;2;0;255;189m> "+Fore.GREEN)
     command = input()
     if command == "cls" or command == "clear":
         clear()
@@ -1047,7 +1047,7 @@ def command():
 
 ##############################################################################################     
     elif command == "subnet":
-        stdout.write(Fore.MAGENTA+" [>] "+Fore.WHITE+"IP "+Fore.LIGHTCYAN_EX+": "+Fore.LIGHTGREEN_EX)
+        stdout.write(Fore.BLUE+" [>] "+Fore.BLUE+"IP "+Fore.LIGHTBLUE_EX+": "+Fore.LIGHTBLUE_EX)
         target = input()
         try:
             r = requests.get(f"https://api.hackertarget.com/subnetcalc/?q={target}")
@@ -1056,7 +1056,7 @@ def command():
             print('An error has occurred while sending the request to the API!')                   
             
     elif command == "dns":
-        stdout.write(Fore.MAGENTA+" [>] "+Fore.WHITE+"IP/DOMAIN "+Fore.LIGHTCYAN_EX+": "+Fore.LIGHTGREEN_EX)
+        stdout.write(Fore.BLUE+" [>] "+Fore.BLUE+"IP/DOMAIN "+Fore.LIGHTBLUE_EX+": "+Fore.LIGHTBLUE_EX)
         target = input()
         try:
             r = requests.get(f"https://api.hackertarget.com/reversedns/?q={target}")
@@ -1065,7 +1065,7 @@ def command():
             print('An error has occurred while sending the request to the API!')
             
     elif command == "geoip":
-        stdout.write(Fore.MAGENTA+" [>] "+Fore.WHITE+"IP "+Fore.LIGHTCYAN_EX+": "+Fore.LIGHTGREEN_EX)
+        stdout.write(Fore.BLUE+" [>] "+Fore.BLUE+"IP "+Fore.LIGHTBLUE_EX+": "+Fore.LIGHTBLUE_EX)
         target = input()
         try:
             r = requests.get(f"https://api.hackertarget.com/geoip/?q={target}")
@@ -1078,32 +1078,32 @@ def command():
 
 def func():
     stdout.write(Fore.RED+" [\x1b[38;2;0;255;189mLAYER 7"+Fore.RED+"]\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"cfb        "+Fore.RED+": "+Fore.WHITE+"Bypass CF attack\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"pxcfb      "+Fore.RED+": "+Fore.WHITE+"Bypass CF attack with proxy\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"cfpro      "+Fore.RED+": "+Fore.WHITE+"Bypass CF UAM, CF CAPTCHA, CF BFM, CF JS (request)\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"cfsoc      "+Fore.RED+": "+Fore.WHITE+"Bypass CF UAM, CF CAPTCHA, CF BFM, CF JS (socket)\n")
+    stdout.write(Fore.MAGENTA+" - "+Fore.WHITE+"cfb        "+Fore.RED+": "+Fore.WHITE+"Bypass CF attack\n")
+    stdout.write(Fore.MAGENTA+" - "+Fore.WHITE+"pxcfb      "+Fore.RED+": "+Fore.WHITE+"Bypass CF attack with proxy\n")
+    stdout.write(Fore.MAGENTA+" - "+Fore.WHITE+"cfpro      "+Fore.RED+": "+Fore.WHITE+"Bypass CF UAM, CF CAPTCHA, CF BFM, CF JS (request)\n")
+    stdout.write(Fore.MAGENTA+" - "+Fore.WHITE+"cfsoc      "+Fore.RED+": "+Fore.WHITE+"Bypass CF UAM, CF CAPTCHA, CF BFM, CF JS (socket)\n")
 #    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"sky        "+Fore.RED+": "+Fore.WHITE+"HTTPS Flood and bypass for CF NoSec, DDoS Guard Free and vShield\n")
 #    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"stellar    "+Fore.RED+": "+Fore.WHITE+"HTTPS Sky method without proxies\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"raw        "+Fore.RED+": "+Fore.WHITE+"Request attack\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"post       "+Fore.RED+": "+Fore.WHITE+"Post Request attack\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"head       "+Fore.RED+": "+Fore.WHITE+"Head Request attack\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"soc        "+Fore.RED+": "+Fore.WHITE+"Socket attack\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"pxraw      "+Fore.RED+": "+Fore.WHITE+"Proxy Request attack\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"pxsoc      "+Fore.RED+": "+Fore.WHITE+"Proxy Socket attack\n")
+    stdout.write(Fore.MAGENTA+" - "+Fore.WHITE+"raw        "+Fore.RED+": "+Fore.WHITE+"Request attack\n")
+    stdout.write(Fore.MAGENTA+" - "+Fore.WHITE+"post       "+Fore.RED+": "+Fore.WHITE+"Post Request attack\n")
+    stdout.write(Fore.MAGENTA+" - "+Fore.WHITE+"head       "+Fore.RED+": "+Fore.WHITE+"Head Request attack\n")
+    stdout.write(Fore.MAGENTA+" - "+Fore.WHITE+"soc        "+Fore.RED+": "+Fore.WHITE+"Socket attack\n")
+    stdout.write(Fore.MAGENTA+" - "+Fore.WHITE+"pxraw      "+Fore.RED+": "+Fore.WHITE+"Proxy Request attack\n")
+    stdout.write(Fore.MAGENTA+" - "+Fore.WHITE+"pxsoc      "+Fore.RED+": "+Fore.WHITE+"Proxy Socket attack\n")
     
     #stdout.write(Fore.RED+" \n["+Fore.WHITE+"LAYER 4"+Fore.RED+"]\n")
     #stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"tcp        "+Fore.RED+": "+Fore.WHITE+"Strong TCP attack (not supported)\n")
     #stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"udp        "+Fore.RED+": "+Fore.WHITE+"Strong UDP attack (not supported)\n")
 
     stdout.write(Fore.RED+" \n[\x1b[38;2;0;255;189mTOOLS"+Fore.RED+"]\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"dns        "+Fore.RED+": "+Fore.WHITE+"Classic DNS Lookup\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"geoip      "+Fore.RED+": "+Fore.WHITE+"Geo IP Address Lookup\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"subnet     "+Fore.RED+": "+Fore.WHITE+"Subnet IP Address Lookup\n")
+    stdout.write(Fore.MAGENTA+" - "+Fore.WHITE+"dns        "+Fore.RED+": "+Fore.WHITE+"Classic DNS Lookup\n")
+    stdout.write(Fore.MAGENTA+" - "+Fore.WHITE+"geoip      "+Fore.RED+": "+Fore.WHITE+"Geo IP Address Lookup\n")
+    stdout.write(Fore.MAGENTA+" - "+Fore.WHITE+"subnet     "+Fore.RED+": "+Fore.WHITE+"Subnet IP Address Lookup\n")
     
     stdout.write(Fore.RED+" \n[\x1b[38;2;0;255;189mOTHER"+Fore.RED+"]\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"clear/cls  "+Fore.RED+": "+Fore.WHITE+"Clear console\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"exit       "+Fore.RED+": "+Fore.WHITE+"Bye..\n")
-    stdout.write(Fore.MAGENTA+" • "+Fore.WHITE+"credit     "+Fore.RED+": "+Fore.WHITE+"Thanks for\n")
+    stdout.write(Fore.MAGENTA+" - "+Fore.WHITE+"clear/cls  "+Fore.RED+": "+Fore.WHITE+"Clear console\n")
+    stdout.write(Fore.MAGENTA+" - "+Fore.WHITE+"exit       "+Fore.RED+": "+Fore.WHITE+"Bye..\n")
+    stdout.write(Fore.MAGENTA+" - "+Fore.WHITE+"credit     "+Fore.RED+": "+Fore.WHITE+"Thanks for\n")
 
 if __name__ == '__main__':
     init(convert=True)
