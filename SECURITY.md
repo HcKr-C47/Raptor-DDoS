@@ -7,9 +7,9 @@ currently being supported with security updates.
 
 | Version | Supported          |
 | ------- | ------------------ |
-| 1.0.0   | :white_check_mark: |
-| 1.0.1   | :white_check_mark: |
-
+| 1.0.0   | :x:                |
+| 1.0.1   | :x:                |
+| 1.0.2   | :white_check_mark: |
 
 ## How We Handle Our Program
 
@@ -71,7 +71,7 @@ We thank you for your vigilance in helping us maintain a secure environment for 
 Together, we can combat malicious behaviour and ensure the continued success of our program.
 
 Thank you for your attention and commitment to cybersecurity. 
-
+⚠️WE DO NOT COLLECT ANY PERSONAL DATA OR PRIVATE INFORMATION⚠️
 Sincerely,
 
 Raptor DDoS Team
