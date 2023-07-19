@@ -25,7 +25,7 @@ Install Chrome (or update it lastest version)
  - apt-get install ./google-chrome-stable_current_amd64.deb
 
 OR
- - python3 RptorSetup.py
+ - python3 RaptorSetup.py
 
 
 Run Raptor
